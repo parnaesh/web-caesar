@@ -48,6 +48,5 @@ def encrypt():
     rot=int(rot)
     encrypted=rotate_string(text,rot)
     enc = '<h1>' + encrypted + '<h1>'
-    return form.format(enc)
+    return form.format(encrypted)
 app.run()
-.vscode/
